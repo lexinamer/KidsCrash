@@ -51,14 +51,62 @@ table {
   width: 80%;
   margin: auto;
   font-family: sans-serif;
+  align-items: center;
 }
+
+a:visited{
+	text-decoration: none;
+}
+
+a:active{
+	text-decoration: none;
+}
+
+#navBar{
+	display: inline-block;
+	background-color: black;
+	color: white;
+	width: 100%;
+	padding: 3% 2%;
+	margin-bottom: 2%;
+}
+
+.navLinks{
+	position: relative;
+	display: inline-block;
+	margin: auto;
+	color: white;
+	font-family: sans-serif;
+	text-decoration: none;
+
+}
+
 
 .detailsh1{
   font-size: 2em;
   font-weight: bold;
 }
 
+.detailsParagraph{
+	width: 60%;
+	margin: auto;
+}
+
 #petDetailHamilton{
-  width: 60%;
-  height: 50%;
+	display: block;
+	margin: 5% auto; /*this is how we center images margin: auto;*/
+  width: 40%;
+  height: 30%;
+}
+
+.clickThis{
+	margin: 5% 0;
+	outline: none;
+	border: none;
+	padding: 2%;
+	font-size: 1.2em;
+}
+
+.clickThis:hover{
+	cursor: pointer;
 }
