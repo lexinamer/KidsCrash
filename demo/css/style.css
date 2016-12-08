@@ -52,6 +52,7 @@ table {
   margin: auto;
   font-family: sans-serif;
   align-items: center;
+	color: #313131;
 }
 
 a:visited{
@@ -59,26 +60,34 @@ a:visited{
 }
 
 a:active{
-	text-decoration: none;
+	text-decoration: underline;;
 }
 
 #navBar{
 	display: inline-block;
-	background-color: black;
-	color: white;
+	background-color: #313131;
+	color: #FBFBF2;
 	width: 100%;
 	padding: 3% 2%;
 	margin-bottom: 2%;
+	box-shadow: 5px 5px 30px #888888;
 }
+
 
 .navLinks{
 	position: relative;
 	display: inline-block;
 	margin: auto;
-	color: white;
+	padding: 0 2%;
+	color: #FBFBF2;
 	font-family: sans-serif;
 	text-decoration: none;
+	letter-spacing: .22em;
 
+}
+
+.navLinks:hover{
+	border-bottom: 3px solid #03BAD6;
 }
 
 
@@ -105,8 +114,13 @@ a:active{
 	border: none;
 	padding: 2%;
 	font-size: 1.2em;
+	background-color: #03BAD6;
+	color: #FBFBF2;
 }
 
 .clickThis:hover{
 	cursor: pointer;
+	box-shadow: 5px 5px 30px #888888;
+
+
 }
